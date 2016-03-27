@@ -1,10 +1,13 @@
 
-// for http://wayback.archive.org/web/20060118044437/http://download.forest.impress.co.jp/pub/win/n/noeditor/NEditSet_1-24-2-0.lzh
+// for https://web.archive.org/web/20150909075454/http://download.forest.impress.co.jp/pub/library/n/noeditor/10421/NEditSet_1-33-3-0.zip
 
 using System;
 using System.Diagnostics;
 using System.Collections.Generic;
 using System.Linq; // Any() => Count > 0
+using System.Reflection;
+
+[assembly: AssemblyCompany("YokkaSoft")]
 
 class dummyexe
 {
